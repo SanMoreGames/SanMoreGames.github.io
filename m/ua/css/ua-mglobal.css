@@ -1,0 +1,32 @@
+body {margin:0 auto; background-color:#fff; font-family:sans-serif;}
+
+header {height:30px; padding:5px;}
+#smg {float:left; margin:0; font-size:17pt; color:#4c6b8e;}
+
+#language {float:right; min-width:80px; margin:-7px; padding:5px 0 7px 8px; border-radius:0 0 0 10px;
+background-color:#eee;}
+#language img {float:left;}
+select {border:none; background-color:#eee;}
+
+nav {text-align:center; background-color:#5a7ca2; font-weight:bolder; color:#fff;}
+nav a {text-decoration:none; color:#fff;}
+.menu {display:inline-block; padding:5px 10px;}
+
+#main  {padding:15px;}
+
+p {text-align:justify; line-height:1.5; max-width:500px;}
+ul {line-height:1.5;}
+
+.game {}
+.game a {float:center; text-decoration:none;}
+.game a:hover {text-decoration:underline;}
+.gamelogo {display:inline-block; vertical-align:middle; margin:5px 5px;}
+.gamename {display:inline-block; vertical-align:middle; margin-left:20px; margin:5px 5px;}
+
+footer {font-size:10pt; padding:15px; text-align:center; clear:both;}
+
+#news {padding:15px;}
+.newcon {}
+.newtitle {display:block; float:left; margin-left:-15px; padding:5px 10px 5px 20px; color:#4c6b8e;
+background-color:#dde5ee; border-radius:0 5px 5px 0;}
+.newbody {clear:both;}

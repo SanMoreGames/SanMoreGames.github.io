@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /ru/contacts/
+Sitemap: http://www.sanmoregames.com/ru/sitemap.xml

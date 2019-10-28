@@ -1,0 +1,17 @@
+@-webkit-keyframes slidy {0% {left:0px;} 18% {left:0px;} 25% {left:-500px;} 43% {left:-500px;}
+50% {left:-1000px;} 68% {left:-1000px;} 75% {left:-500px;} 93% {left:-500px;} 100% {left:0px;}}
+
+@keyframes slidy {0% {left:0px;} 18% {left:0px;} 25% {left:-500px;} 43% {left:-500px;}
+50% {left:-1000px;} 68% {left:-1000px;} 75% {left:-500px;} 93% {left:-500px;} 100% {left:0px;}}
+
+#slider {overflow:hidden;}
+#slider a {color:#333;}
+#slider figure div {width: 470px; height:150px; float: left; padding:15px;}
+#slider figure {position:relative; width:2000px; margin:0; left:0; text-align:left;
+ -webkit-animation:30s slidy infinite; animation:30s slidy infinite;}
+
+#lrp {background-color:#ccc;}
+#rb {background-color:#eee;}
+#fp1 {background-color:#bbb;}
+#fp2 {background-color:#777;}
+#fp3 {background-color:#999;}

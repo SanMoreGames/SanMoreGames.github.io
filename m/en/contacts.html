@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>San More Games</title>
+<link rel="stylesheet" href="/en/css/en-mglobal.css">
+<link rel="icon" href="favicon.png">
+</head>
+<body>
+
+<header>
+<h1 id="smg">San More Games</h1>
+
+<div id="language">
+<img src="/img/en.jpg" width="38" height="20">
+<select onchange="document.location=this.options[this.selectedIndex].value">
+  <option value="/ua/contacts.html">UA</option>
+  <option selected="selected">EN</option>
+  <option value="/ru/contacts.html">RU</option>
+</select>
+</div>
+</header>
+
+<nav>
+<a href="/en/">HOME</a>
+<a href="/en/games.html">GAMES</a>
+<a href="/en/about.html">ABOUT</a>
+<span>CONTACTS</span>
+</nav>
+
+<div id="main">
+<h3>Write us a letter</h3>
+
+<form name="send" method="post" action="send.php">
+<div id="mail">
+<p>Your name: <input name="name"></p>
+<p>Your email: <input name="contact"></p>
+<p>Your message: <textarea name="message"></textarea></p>
+<p><input type="submit" value="Send"></p>
+</div>
+</form>
+
+</div>
+
+<footer>
+San More Games 2015
+</footer>
+
+</body>
+</html>

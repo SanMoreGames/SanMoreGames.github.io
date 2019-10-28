@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="Windows-1251">
+<meta name="viewport" content="width=device-width">
+<title>San More Games</title>
+<link rel="stylesheet" href="/ua/css/ua-mglobal.css">
+<link rel="icon" href="favicon.png">
+</head>
+<body>
+
+<header>
+<h1 id="smg">San More Games</h1>
+
+<div id="language">
+<img src="/img/ua.jpg" width="30" height="20">
+<select onchange="document.location=this.options[this.selectedIndex].value">
+  <option selected="selected">UA</option>
+  <option value='/en/contacts.html'>EN</option>
+  <option value='/ru/contacts.html'>RU</option>
+</select>
+</div>
+</header>
+
+<nav>
+<a href="/ua/">ГОЛОВНА</a>
+<a href="/ua/games.html">ІГРИ</a>
+<a href="/ua/about.html"><span id="pronas">ПРО НАС</span></a>
+<span>КОНТАКТИ</span>
+</nav>
+
+<div id="main">
+<h3>Write us a letter</h3>
+
+<form name="send" method="post" action="send.php">
+<div id="mail">
+<p>Ваше і'мя: <input name="name"></p>
+<p>Ваш email: <input name="contact"></p>
+<p>Ваше повідомлення: <textarea name="message"></textarea></p>
+<p><input type="submit" value="Надіслати"></p>
+</div>
+</form>
+
+</div>
+
+<footer>
+San More Games 2015
+</footer>
+
+</body>
+</html>
