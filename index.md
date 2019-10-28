@@ -10,15 +10,15 @@
 var lng = navigator.language;
 
 switch (lng){
-  case 'uk':  window.location.href = "http://www.sanmoregames.com/ua/"
+  case 'uk':  window.location.href = "https://sanmoregames.github.io/ua/"
                   break;
-  case 'uk-UA':  window.location.href = "http://www.sanmoregames.com/ua/"
+  case 'uk-UA':  window.location.href = "https://sanmoregames.github.io/ua/"
                   break;
-  case 'ru': window.location.href = "http://www.sanmoregames.com/ru/";
+  case 'ru': window.location.href = "https://sanmoregames.github.io/ru/";
                   break;
-  case 'ru-ru':    window.location.href = "http://www.sanmoregames.com/ru/";
+  case 'ru-ru':    window.location.href = "https://sanmoregames.github.io/ru/";
                   break;
-  default:  window.location.href = "http://www.sanmoregames.com/en/";
+  default:  window.location.href = "https://sanmoregames.github.io/en/";
  
 }
 </script>
