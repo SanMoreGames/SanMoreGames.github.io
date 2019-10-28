@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data>
-	<app bundleId = "com.SanMoreGames.LittlePonyGO" androidVersion = "1.0" iOSVersion = "1.0" bannerLink = "http://www.sanmoregames.com/img/banners/LCD.png"/>
-	<app bundleId = "com.SanMoreGames.RoofyBird" androidVersion = "1.4" iOSVersion = "1.4" bannerLink = "http://www.sanmoregames.com/img/banners/LCD.png"/>
+	<app bundleId = "com.SanMoreGames.LittleRunningPony" androidVersion = "1.0" iOSVersion = "1.0" bannerLink = "https://sanmoregames.github.io/img/banners/LCD.png"/>
+	<app bundleId = "com.SanMoreGames.RoofyBird" androidVersion = "1.4" iOSVersion = "1.4" bannerLink = "https://sanmoregames.github.io/img/banners/LCD.png"/>
 </Data>

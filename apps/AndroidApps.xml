@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data>
-	<app name = "Roofy Bird" id = "com.SanMoreGames.RoofyBird" iconLink = "http://sanmoregames.com/img/icons/RBicon.png" downloadLink = "market://details?id=com.SanMoreGames.RoofyBird"/>
-	<app name = "Little Pony GO! Roof Run" id = "com.SanMoreGames.LittlePonyGO" iconLink = "http://sanmoregames.com/img/icons/LPGORR.png" downloadLink = "market://details?id=com.SanMoreGames.LittlePonyGO"/>
-	<app name = "Monster Girl" id = "com.Yukon.MGA" iconLink = "http://sanmoregames.com/img/icons/MGAicon.png" downloadLink = "market://details?id=com.Yukon.MGA"/>
-	<app name = "Space Spinner" id = "com.SanMoreGames.SpaceSpinner" iconLink = "http://sanmoregames.com/img/icons/SSicon.png" downloadLink = "market://details?id=com.SanMoreGames.SpaceSpinner"/>
+	<app name = "Roofy Bird" id = "com.SanMoreGames.RoofyBird" iconLink = "https://sanmoregames.github.io/img/icons/RBicon.png" downloadLink = "market://details?id=com.SanMoreGames.RoofyBird"/>
+	<app name = "PonyAdventures" id = "com.SanMoreGames.LittleRunningPony" iconLink = "https://sanmoregames.github.io/img/icons/LPGORR.png" downloadLink = "market://details?id=com.SanMoreGames.LittleRunningPony"/>
+	<app name = "Space Spinner" id = "com.SanMoreGames.SpaceSpinner" iconLink = "https://sanmoregames.github.io/img/icons/SSicon.png" downloadLink = "market://details?id=com.SanMoreGames.SpaceSpinner"/>
 </Data>
