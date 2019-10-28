@@ -1,0 +1,23 @@
+<div id="device" style="text-align: center; border:1px dotted black; color:green;"></div>
+<script type="text/javascript">
+  testExp = new RegExp('Android|webOS|iPhone|iPad|' +
+    		       'BlackBerry|Windows Phone|'  +
+    		       'Opera Mini|IEMobile|Mobile' , 
+    		      'i');
+  android = new RegExp('Android', 'i');
+  ios = new RegExp('iPhone|iPad|iPod', 'i');
+  
+  if (testExp.test(navigator.userAgent)){
+	if (android.test (navigator.userAgent)){
+        location = "market://details?id=com.SanMoreGames.LittleRunningPony";
+    }
+	if (ios.test (navigator.userAgent)){
+		location = "itms-apps://itunes.apple.com/ru/app/subway-surfers/id512939461?mt=8";
+	}
+  }
+       
+  else
+       location = "http://sanmoregames.com";
+     			 
+</script>
+
